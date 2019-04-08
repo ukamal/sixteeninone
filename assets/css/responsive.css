@@ -1,0 +1,43 @@
+@media only screen and (max-width: 480px) {
+	 .slicknav_menu {
+		display:block;
+	}
+    .slicknav_btn {
+        margin-right: 38%;
+    }
+    .mainmenu {
+        display: none;
+    }
+    .logo {
+        text-align:  center;
+    }
+    .parallax-container {
+        margin-top: -101px;
+    }
+    ul.social-nabvar {
+    text-align: center;
+    }
+    .testimonial4_indicators .carousel-indicators li{
+        margin-top: 13px;
+    }
+}
+/**/
+@media (min-width: 480px) and (max-width: 768px) {
+    .slicknav_menu {
+		display:block;
+		position: relative;
+        z-index: 999;
+        background: transparent;
+	}
+    .mainmenu {
+        display: none;
+    }
+    a.boxed-btn.media{
+        z-index: 999;
+        position: absolute;
+        top: -3.7em;
+        left: 40%;
+    }
+}
+
+

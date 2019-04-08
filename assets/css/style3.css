@@ -1,0 +1,311 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/**********style of header-area********/
+
+/*slider*/
+
+#sixteeninone-slider{
+    padding:150px 0;
+}
+
+.slider:after {
+    content: "";
+    background: #1843C5; /* Old browsers */
+    background: -moz-linear-gradient(top, #1843C5 0%, #1843C5 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1843C5 0%, #1843C5 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1843C5 0%, #1843C5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1843C5', endColorstr='#0000CD', GradientType=0); /* IE6-9 */
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*carousel*/
+.carousel-inner{
+    z-index: 1;
+}
+
+.carousel-inner p {
+    font-size: 50px;
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+
+}
+
+.carousel-inner h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.carousel-inner .creative {
+    line-height: 90px;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators {
+    width: 100%;
+    left: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    text-indent: initial;
+    width: 20%;
+    height: 3px;
+    border: none;
+    background: #fff;
+    margin: 0 15px 0 0;
+    opacity: 0.5;
+}
+
+.carousel-indicators .active {
+    position: relative;
+    opacity: 1;
+}
+
+.carousel-indicators .active:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 3px;
+    background: #f38181;
+    width: 30%;
+    top: 0;
+}
+
+.carousel-indicators li .indicator-inner {
+    display: block;
+    padding-top: 26px;
+    text-align: left;
+}
+
+.carousel-indicators li span {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 18px;
+}
+
+.carousel-indicators li span.number {
+    font-weight: 500;
+    font-size: 24px;
+    margin-right: 5px;
+
+}
+
+.slider-content .btn {
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 0;
+    padding: 8px 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms;
+}
+
+.slider-content .btn:hover {
+    background: #000;
+    border: 2px solid #000;
+}
+
+
+
+
+/*********style of from-area**********/
+.from-area{
+    padding: 90px 0;
+}
+
+.service-area3 .single-service-box span{
+    font-size: 70px;
+    color: #D1D1D1;
+}
+.service-area3 .single-service-box span:hover{
+    color: #1843C5;
+}
+.service-area3 .single-service-box .service-readmore-btn{
+    font-family: Khula Regular;
+    font-size: 15px;
+    color: #373737;
+}
+
+/********style of case-study-area2******/
+.casestudy-area .casehover li{
+    display: inline-block;
+}
+
+.case-study-box-preview.case-study-preview-1{
+    display: table;
+    height: 250px;
+    width: 300px;
+    background: url(../img/index3-content/case0.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-2{
+    display: table;
+    height: 250px;
+    width: 250px;
+    background: url(../img/index3-content/case1.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-3{
+    display: table;
+    height: 250px;
+    width: 250px;
+    background: url(../img/index3-content/case2.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-4{
+    display: table;
+    height: 250px;
+    width: 250px;
+    background: url(../img/index3-content/case3.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-5{
+    display: table;
+    height: 250px;
+    width: 250px;
+    background: url(../img/index3-content/case4.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-link-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    transform: scale(.8);
+}
+.case-study-link-tablecell::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #1843C5;
+    z-index: -1;
+    opacity: .8;
+}
+.casestudy-area .casehover .case-study-link-tablecell a.boxed-btn{
+    background: none;
+    font-size: 20px;
+    font-family: Khula Regular;
+    color: #ffffff;
+    line-height: 45px;
+}
+.casestudy-area .casehover .case-study-link-tablecell p{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: Khula Light;
+}
+.casestudy-area .casehover .case-study-link-tablecell i{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+/**********style of footer-area*******/
+
+.footer-top-area::after{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d63f0+0,1ad8fd+100 */
+background: rgb(29,99,240); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgb(29,99,240) 0%, rgb(26,216,253) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(29,99,240) 0%,rgb(26,216,253) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(29,99,240) 0%,rgb(26,216,253) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d63f0', endColorstr='#1ad8fd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.footer-top-area{
+    height: 100%;
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.footer-top-area::after{
+    opacity: .7;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+}
+
+
+/*********style of footer-area2 ******/
+.footer-area2{
+    padding: 35px 0;
+    background: #073b4c;
+}
+
+.footer-area2 li{
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.footer-area2 li a{
+    font-size: 14px;
+    font-family: Khula Regular;
+    color: #fff;
+}
+.footer-area2 li a:hover{
+    color: #2C0BF0;
+}
+.footer-area2 li i{
+    color: #fff;
+}
+.footer-area2 li i:hover{
+    color: #2C0BF0;
+}
+/****copy right****/
+.copyright-area .social-link a{
+    font-size: 15px;
+    font-family: Khula Regular;
+    color: #fff;
+    margin-left: 30px;
+}
+.copyright-area .social-link a:hover{
+    color: #2C0BF0;
+}
+
+
+
+    #owl-demo2 .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+

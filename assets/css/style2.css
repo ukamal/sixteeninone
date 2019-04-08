@@ -1,0 +1,255 @@
+
+
+
+
+    #owl-demo .item{
+      margin: 3px;
+    }
+    #owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+/*****************************************************************************************/
+
+.container-fluid {
+    position:  relative;
+}
+
+.row.update {
+    position:  absolute;
+    top: 80px;
+}
+
+
+.hero-area .hero-form{
+    height: 420px;
+    width: 420px;
+}
+.hero-form-wrapper p{
+    margin-top: 20px;
+}
+
+.agency-area {
+	padding-top: 140px;
+}
+.agency1 img {
+	float: left;
+}
+.agecny2 p {
+	padding: 40px 0;
+	font-size: 15px;
+	color: #999999;
+	line-height: 26px;
+	display: block;
+    text-align: left;
+}
+.agecny2 h3 {
+	font-size: 22px;
+	color: #373737;
+	font-family: khula Regular;
+    margin-top: 30px;
+}
+
+
+/*********style of service-area*******/
+.service-area{}
+.boxicon{
+    padding: 90px 0;
+}
+.service-icon {
+	background: #f9f9f9;
+	height: 250px;
+	width: 100%;
+    box-shadow: 1px 2px #A9A9A9;
+}
+.service-icon i {
+	font-size: 20px;
+	margin-top: 70px;
+}
+.service-icon p {
+	font-size: 22px;
+	color: #3A3A3A;
+	margin-top: 35px;
+}
+.service-icon:hover {
+	background-color: #25A2F9;
+    color: #fff;
+}
+.service-icon:hover p{
+	background-color: #25A2F9;
+    color: #fff;
+}
+
+/*******testimonial2-area******/
+.testimonial2-area{
+    background: #FBFBFB;
+}
+.testimonial2-area .testimonial4_slide i{
+    height: 60px;
+    width: 60px;
+    border: 1px solid #e8e8e8;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+    padding-top: 21px;
+    color: #10b3fc;
+}
+.testimonial2-area .testimonial4_slide p{
+    font-size: 18px;
+    color: #373737;
+    line-height: 33px;
+}
+
+/***********style of casestudy2-area*********/
+.case-study-box-preview.case-study-preview-1{
+    display: table;
+    height: 300px;
+    width: 100%;
+    background: url(../img/index2-content/box1.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-2{
+    display: table;
+    height: 300px;
+    width: 100%;
+    background: url(../img/index2-content/box2.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-box-preview.case-study-preview-3{
+    display: table;
+    height: 300px;
+    width: 100%;
+    background: url(../img/index2-content/box3.png);
+    background-position: center;
+    background-size: cover;
+}
+.case-study-link-tablecell{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    transform: scale(.8);
+}
+.case-study-link-tablecell::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #2ea5f6;
+    z-index: -1;
+    opacity: .8;
+}
+
+.case-study-box-style2{
+    text-align: center
+}
+.case-study-box-style2 h4{
+    margin-top: 20px;
+}
+.case-study-box-style2 h4 span{
+    display: block;
+    margin-top: 10px;
+    font-weight: 300;
+    color: #999;
+    font-size: 14px;
+}
+.case-study-box-style2:hover .case-study-link-tablecell{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+.case-study-link-tablecell i {
+	margin-left: 5px;
+}
+/********style of pricing-area theme2*********/
+.pricing-area.theme2{}
+.pricing-area.theme2 .pricing-heading{
+    background: #fbfbfb;
+}
+.pricing-area.theme2 .pricing-heading h4{
+    padding-top: 35px;
+}
+.pricing-area.theme2 .pricing-box2{
+    border: 3px solid #fbfbfb;
+    padding: 0;
+    margin: 0;
+    border-top: none;
+}
+.pricing-content a.boxed-btn {
+	width: 100%;
+	margin: 0;
+}
+.pricing-area.theme2 .pricing-heading span{
+    color: #3394f5;
+}
+.pricing-area.theme2 .pricing-heading p{
+    color: #6badf6;
+}
+.pricing-area.theme2 .pricing-content ul li a{
+    color: #999999;
+    font-size: 17px;
+    line-height: 45px;
+}
+.pricing-area.theme2 .pricing-content ul li a:hover{
+    color: blueviolet;
+}
+/*******style of blog-area*********/
+.blog-area{
+    padding: 90px 0;
+}
+
+.blog-area .single-blog-box h3{
+    font-size: 20px;
+    color: #373737;
+    font-family: khula Regular;
+}
+.blog-area .single-blog-box p{
+    font-size: 15px;
+    color: #999999;
+    font-family: khula Light;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+.blog-area .single-blog-box a{
+    font-size: 15px;
+    color: #06d6a0;
+    font-family: khula Regular;
+    padding: 30px 0;
+}
+.blog-area .single-blog-box a i{
+    margin-left: 5px;
+}
+
+.footer-top-area:after{
+    background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;09B9FD */
+background:/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(top, rgb(30,87,153) 0%, rgb(125,185,232) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgb(30,87,153) 0%,rgb(125,185,232) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgb(30,87,153) 0%,rgb(125,185,232) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
